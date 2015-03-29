@@ -1,0 +1,41 @@
+.navbar{
+margin-bottom:0 !important;
+border-radius:0 !important;
+}
+.thumbnail{
+
+margin-top:5px !important;
+
+}
+ul#menu li
+{
+    display:block;
+    list-style: none;
+    background: #e8eef4 url(images/arrow.png) 2% 50% no-repeat;
+    border: 1px solid #b2b2b2;
+    padding: 0;
+    margin-top: 100px;
+}
+
+ul#menu li a
+{
+
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 2.8em;
+    padding-right:.5em;
+    color: #696969;
+}
+.chkans {
+margin:10px 10px -5px 0;
+} 
+
+span.chkans {
+position:relative;
+top:5px
+} 
+
+* html span.chkans {
+top:2px
+} 
+
