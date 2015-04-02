@@ -32,19 +32,19 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-     <a class="navbar-brand" href="index.php"><img class="img-responsive" src="imagini/logo.png" width="30" height="25" alt=" "></a>
+     <a class="navbar-brand" href="index.php"><img class="img-responsive" src="images/logo.png" width="30" height="25" alt=" "></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="#">About</a></li>
-        <li><a href="http://localhost/BombCrack/quiz.html">Quiz</a></li>
+        <li class="active"><a href="#">About<span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Quiz</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Games <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="http://localhost/BombCrack/action.html">Action</a></li>
-            <li><a href="http://localhost/BombCrack/adventure.html">Adventure</a></li>
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
             <li><a href="#">Something else here</a></li>
             <li class="divider"></li>
             <li><a href="#">Separated link</a></li>
@@ -61,21 +61,62 @@
       </form>
   
     </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+  
 </nav>
+<style>
+  .survival {
 
+ color:white;
+  font-size:30px;text-decoration:none;
+  border-radius:4px;
+  display:block
+  }
+  .survival2 {
 
-
-
+ color:black;
+  font-size:30px;text-decoration:none;
+  border-radius:4px;
+  display:block
+  }
+ </style>
+</head>
+    <body>
+<div class="container-fluid" style='background: url("images/adam.jpg") no-repeat center center fixed;
+-webkit-background-size: 100% auto;
+-moz-background-size: 100% auto;
+-o-background-size: 100% auto;
+ background-size: 100% auto; '> 
 <center>
-<h1 style='color:blue'>Adventure</h1>		
-<ul id="menu">              
-    <li><a href="http://localhost/BombCrack/goat.html">Ghost of a Tale</a></li>
-    <li><a href="http://localhost/BombCrack/syb3.html">Syberia III</a></li>
-    <li><a href="http://localhost/BombCrack/tgr.html">The Girl and the Robot</a></li>
-    <li><a href="http://localhost/BombCrack/blw.html">Below</a></li>
-</ul>
+ </br>
+ </br>
+ <a class="survival" href="theforest.php">The Forest</a>
+</br>
+</br>
+</br>
+</br>
+<a class="survival2" href="strandeddeep.php">Stranded Deep</a>
+</br>
+</br>
+</br>
+</br>
+<a class="survival" href="shelter2.php">Shelter 2</a>
+</br>
+</br>
+</br>
+</br>
+<a class="survival2" href="stompinglands.php">Stomping Lands</a>
+</br>
+</br>
+</br>
+</br>
+<a class="survival" href="dayz.php">Day Z</a>
+</br>
+</br>
+</br>
+</br>
+<a class="survival2" href="unturned.php">Unturned</a>
 </center>
-<script src="js/bootstrap.min.js"></script>
+</div><!-- /.container-fluid -->
 </body>
+
 </html>

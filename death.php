@@ -32,19 +32,19 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-     <a class="navbar-brand" href="index.php"><img class="img-responsive" src="imagini/logo.png" width="30" height="25" alt=" "></a>
+     <a class="navbar-brand" href="index.php"><img class="img-responsive" src="images/logo.png" width="30" height="25" alt=" "></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="#">About</a></li>
-        <li><a href="http://localhost/BombCrack/quiz.html">Quiz</a></li>
+        <li class="active"><a href="#">About<span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Quiz</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Games <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="http://localhost/BombCrack/action.html">Action</a></li>
-            <li><a href="http://localhost/BombCrack/adventure.html">Adventure</a></li>
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
             <li><a href="#">Something else here</a></li>
             <li class="divider"></li>
             <li><a href="#">Separated link</a></li>
@@ -62,20 +62,60 @@
   
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
+  
 </nav>
+<style>
+
+.det2{
+ color:#006600;
+    font-size:20px;text-decoration:none;
+}	
+.trailer12{
+color:#FFFF99;
+}
+
+.det{
+   color:#FF3300;
+   }
+.f{
+   color:#3366FF;
+
+ 
 
 
 
-
-<center>
-<h1 style='color:blue'>Adventure</h1>		
-<ul id="menu">              
-    <li><a href="http://localhost/BombCrack/goat.html">Ghost of a Tale</a></li>
-    <li><a href="http://localhost/BombCrack/syb3.html">Syberia III</a></li>
-    <li><a href="http://localhost/BombCrack/tgr.html">The Girl and the Robot</a></li>
-    <li><a href="http://localhost/BombCrack/blw.html">Below</a></li>
-</ul>
+</style>
+ <div class="container-fluid" style='background: url("images/wor.jpg") no-repeat center center fixed;
+-webkit-background-size: 100% auto;
+-moz-background-size: 100% auto;
+-o-background-size: 100% auto;
+ background-size: 100% auto; '> 
+ <center>
+ <img height="128" width="128" src="images/wor2.jpg">
+<h1 class="f" >Death Worm</h1>
+</br>
+</br>
+<a class="det2" href="https://play.google.com/store/apps/details?id=com.playcreek.DeathWorm&hl=en">From here you can download Death Worm</a>
+<h3 class="det">
+Death Worm is a game about a worm that jumps out of the sand and eats animals and people. It is one of the most popular Game Maker games, with 170,000+ plays on YoYo Games. There's a parody called "effing worms".
+</h3>
+</br>
+</br>
+<h1 class="trailer12">
+Gameplay
+</h1>
+</br>
+</br>
+</br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tbJbvPwYT_I" frameborder="0" allowfullscreen></iframe>
+</br>
+</br>
+</br>
 </center>
-<script src="js/bootstrap.min.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+
+</div>
+ 
 </body>
+
 </html>

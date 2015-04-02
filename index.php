@@ -42,12 +42,12 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="#">About</a></li>
-        <li><a href="http://localhost/www/quiz.html">Quiz</a></li>
+        <li><a href="http://localhost/BombCrack/quiz.html">Quiz</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Genre<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="http://localhost/www/action.html">Action</a></li>
-            <li><a href="http://localhost/www/adventure.html">Adventure</a></li>
+            <li><a href="http://localhost/BombCrack/action.html">Action</a></li>
+            <li><a href="http://localhost/BombCrack/adventure.html">Adventure</a></li>
             <li><a href="#">Something else here</a></li>
             <li class="divider"></li>
             <li><a href="#">Separated link</a></li>
@@ -191,7 +191,7 @@
   
     <!-- Include all compiled plugins (below), or include individual files as needed -->
 	<iframe src="http://www.facebook.com/plugins/like.php?app_id=137084976372144&amp;href=https://www.facebook.com/pages/BombCrack/1545030755760745?skip_nax_wizard=true&ref_type=logout_gear%3Fv%3D3&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:35px;" allowTransparency="true"></iframe>
-	
+	<div style="text-align:center;" id="votes_13755"><noscript>Javascript is disable - <a href="file:///C:/xampp/htdocs/BombCrack/index.php">Vote Service (notation module)</a></noscript><script type="text/javascript" src="http://services.webestools.com/votes/13755-3.js"></script></div>
     <script src="js/bootstrap.min.js"></script>
      
 	 

@@ -32,19 +32,19 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-     <a class="navbar-brand" href="index.php"><img class="img-responsive" src="imagini/logo.png" width="30" height="25" alt=" "></a>
+     <a class="navbar-brand" href="index.php"><img class="img-responsive" src="images/logo.png" width="30" height="25" alt=" "></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="#">About</a></li>
-        <li><a href="http://localhost/BombCrack/quiz.html">Quiz</a></li>
+        <li class="active"><a href="#">About<span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Quiz</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Games <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="http://localhost/BombCrack/action.html">Action</a></li>
-            <li><a href="http://localhost/BombCrack/adventure.html">Adventure</a></li>
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
             <li><a href="#">Something else here</a></li>
             <li class="divider"></li>
             <li><a href="#">Separated link</a></li>
@@ -62,20 +62,57 @@
   
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
+  
 </nav>
+<style>
+
+.bad2{
+ color:#006600;
+    font-size:20px;text-decoration:none;
+}	
+.trailer7{
+color:#33CCFF;
+}
+
+.bad{
+   color:#FF9900;
+   }
+
+ 
 
 
 
-
-<center>
-<h1 style='color:blue'>Adventure</h1>		
-<ul id="menu">              
-    <li><a href="http://localhost/BombCrack/goat.html">Ghost of a Tale</a></li>
-    <li><a href="http://localhost/BombCrack/syb3.html">Syberia III</a></li>
-    <li><a href="http://localhost/BombCrack/tgr.html">The Girl and the Robot</a></li>
-    <li><a href="http://localhost/BombCrack/blw.html">Below</a></li>
-</ul>
+</style>
+ <div class="container-fluid" style='background: url("images/bad.jpg") no-repeat center center fixed;
+-webkit-background-size: 100% auto;
+-moz-background-size: 100% auto;
+-o-background-size: 100% auto;
+ background-size: 100% auto; '> 
+ <center>
+<img width="128" height="128" src="images/bad3.jpg">
+</br>
+</br>
+<a class="bad2" href="https://play.google.com/store/apps/details?id=com.rovio.BadPiggies&hl=en">From here you can download Bad Piggies</a>
+<h3 class="bad">
+Bad Piggies is an arcade video game developed by Rovio Entertainment, and was its first spin-off to Angry Birds. The game launched on Android, iOS, Windows and Mac on September 27, 2012. Unlike the Angry Birds games, the player controls the pigs in building devices that travel on land and air to find pieces of a map to find and take away the Angry Birds' eggs. As of October 2012, Bad Piggies was the fastest-selling game on the Apple App Store, and the quickest one to reach the top of the list, in just three hours. It was released for BlackBerry 10 in October 2013 and for Windows Phone in April 2014
+</h3>
+</br>
+</br>
+<h1 class="trailer7">
+Trailer
+</h1>
+</br>
+</br>
+</br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YsCpDaSooWA" frameborder="0" allowfullscreen></iframe>s
+</br>
+</br>
+</br>
 </center>
-<script src="js/bootstrap.min.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+
+</div>
+ 
 </body>
+
 </html>

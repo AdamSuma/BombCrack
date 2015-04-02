@@ -32,19 +32,19 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-     <a class="navbar-brand" href="index.php"><img class="img-responsive" src="imagini/logo.png" width="30" height="25" alt=" "></a>
+     <a class="navbar-brand" href="index.php"><img class="img-responsive" src="images/logo.png" width="30" height="25" alt=" "></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="#">About</a></li>
-        <li><a href="http://localhost/BombCrack/quiz.html">Quiz</a></li>
+        <li class="active"><a href="#">About<span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Quiz</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Games <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="http://localhost/BombCrack/action.html">Action</a></li>
-            <li><a href="http://localhost/BombCrack/adventure.html">Adventure</a></li>
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
             <li><a href="#">Something else here</a></li>
             <li class="divider"></li>
             <li><a href="#">Separated link</a></li>
@@ -62,39 +62,56 @@
   
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
+  
 </nav>
- <div class="container-fluid" style='background: url("imagini/sniper.png") no-repeat center center fixed;
+<style>
+h3{
+  color:#800000;
+   border-radius:4px;
+	}
+.dayz{
+   color:;
+ 
+    font-size:20px;text-decoration:none;
+}	
+.trailer1{
+color:#6B6B47;
+
+
+</style>
+ <div class="container-fluid" style='background: url("images/dayz.jpg") no-repeat center center fixed;
 -webkit-background-size: 100% auto;
 -moz-background-size: 100% auto;
 -o-background-size: 100% auto;
  background-size: 100% auto; '> 
  <center>
- <h1>Grand Theft Auto 5   (GTA 5)</h1>
- <br>
- <br>
- <br>
- <h2>
- Grand Theft Auto V is an open world, action-adventure video game developed by Rockstar North and published by Rockstar Games.
- It was released on 17 September 2013 for the PlayStation 3 and Xbox 360.
- An enhanced version of the game was released on 18 November 2014 for the PlayStation 4 and Xbox One, and is scheduled to be released on 24 March 2015 for Microsoft Windows.
- The game is the first main entry in the Grand Theft Auto series since 2008's Grand Theft Auto IV. Set within the fictional state of San Andreas (based on Southern California), the single-player story follows three criminals and their efforts to commit heists while under pressure from a government agency.
- The open world design lets players freely roam San Andreas, which includes open countryside and the fictional city of Los Santos (based on Los Angeles).
- The game is played from either a third-person or first-person view and its world is navigated on foot or by vehicle. 
- </h2>
- <br>
- <br>
- <br>
- <h1 style='color:#0000ff'>Trailer</h1>
- <br>
- <br>
- <br>
- <iframe width="560" height="315" src="https://www.youtube.com/embed/hvoD7ehZPcM" frameborder="0" allowfullscreen></iframe>
- </center>
- 
-</div>	
+<img width="64" height="64" src="https://survivalservers.com/templates/WebHostingCircle/html/images/gameicons/dayz.png" >
+</br>
+</br>
+<a class="dayz" href="http://store.steampowered.com/agecheck/app/221100/">From here you can download Dayz</a>
+</br>
+</br>
+</br>
+<h3>DayZ is a MMO open world survival horror video game in development by Bohemia Interactive and the stand-alone version of the award-winning mod of the same name. The game was test-released on December 16, 2013, for Microsoft Windows via digital distribution platform Steam, and is currently in early alpha testing.
 
+The game places the player in the fictional 225km2 post-Soviet state of Chernarus, where an unknown virus has turned most of the population into violent zombies. As a survivor, the player must scavenge the world for food, water, weapons, and medicine, while killing or avoiding zombies, and killing, avoiding or co-opting other players in an effort to survive the zombie apocalypse.
+
+DayZ began development in 2012 when the mod's creator, Dean Hall, joined Bohemia Interactive to commence work on the standalone version of the game. The development has been focused on altering the engine to suit the game's needs, developing a working client-server architecture, and introducing new features like diseases and a better inventory system. The game has sold 3 million copies since its alpha release. At Gamescom 2014, it was announced that DayZ would be coming to the PlayStation 4.
+</h3>
+</br>
+</br>
+<h1 class="trailer1">
+Trailer
+</h1>
+</br>
+</br>
+</br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LNHzo6tBhbw" frameborder="0" allowfullscreen>
+</center>
  <script src="js/bootstrap.min.js"></script>
+
+</div>
+ 
 </body>
+
 </html>
-
-

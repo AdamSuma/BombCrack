@@ -32,19 +32,19 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-     <a class="navbar-brand" href="index.php"><img class="img-responsive" src="imagini/logo.png" width="30" height="25" alt=" "></a>
+     <a class="navbar-brand" href="index.php"><img class="img-responsive" src="images/logo.png" width="30" height="25" alt=" "></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="#">About</a></li>
-        <li><a href="http://localhost/BombCrack/quiz.html">Quiz</a></li>
+        <li class="active"><a href="#">About<span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Quiz</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Games <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="http://localhost/BombCrack/action.html">Action</a></li>
-            <li><a href="http://localhost/BombCrack/adventure.html">Adventure</a></li>
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
             <li><a href="#">Something else here</a></li>
             <li class="divider"></li>
             <li><a href="#">Separated link</a></li>
@@ -62,20 +62,68 @@
   
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
+  
 </nav>
+<style>
+
+.det2{
+ color:#FF5050;
+    font-size:20px;text-decoration:none;
+}	
+.trailer12{
+color:#FF5050;
+}
+
+.det{
+   color:#CCFF33;
+   }
+.f{
+   color:#0066FF;
+   }
+
+ 
 
 
 
+</style>
+ <div class="container-fluid" style='background: url("images/polar.jpg") no-repeat center center fixed;
+-webkit-background-size: 100% auto;
+-moz-background-size: 100% auto;
+-o-background-size: 100% auto;
+ background-size: 100% auto; '> 
+ <center>
+ <img height="128" width="128" src="images/pol1.jpg">
+<h1 class="f" >Polar Adventure</h1>
+</br>
+</br>
+<a class="det2" href="https://play.google.com/store/apps/details?id=com.vodigital.polaradventure&hl=en">From here you can download Polar Adventure</a>
+<h3 class="det">
+Polar adventure - a game, where you, having ridden out a seal, will dump all the enemies from an ice floe. 
 
-<center>
-<h1 style='color:blue'>Adventure</h1>		
-<ul id="menu">              
-    <li><a href="http://localhost/BombCrack/goat.html">Ghost of a Tale</a></li>
-    <li><a href="http://localhost/BombCrack/syb3.html">Syberia III</a></li>
-    <li><a href="http://localhost/BombCrack/tgr.html">The Girl and the Robot</a></li>
-    <li><a href="http://localhost/BombCrack/blw.html">Below</a></li>
-</ul>
+Features:
+4 levels
+5 superabilities
+Excellent 3D graphics
+Compete with friends on Facebook
+
+</h3>
+</br>
+</br>
+<h1 class="trailer12">
+Gameplay
+</h1>
+</br>
+</br>
+</br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SpwSOP32qCw" frameborder="0" allowfullscreen></iframe>
+</br>
+</br>
+</br>
 </center>
-<script src="js/bootstrap.min.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+
+</div>
+ 
 </body>
+
 </html>

@@ -32,19 +32,19 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-     <a class="navbar-brand" href="index.php"><img class="img-responsive" src="imagini/logo.png" width="30" height="25" alt=" "></a>
+     <a class="navbar-brand" href="index.php"><img class="img-responsive" src="images/logo.png" width="30" height="25" alt=" "></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="#">About</a></li>
-        <li><a href="http://localhost/BombCrack/quiz.html">Quiz</a></li>
+        <li class="active"><a href="#">About<span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Quiz</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Games <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="http://localhost/BombCrack/action.html">Action</a></li>
-            <li><a href="http://localhost/BombCrack/adventure.html">Adventure</a></li>
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
             <li><a href="#">Something else here</a></li>
             <li class="divider"></li>
             <li><a href="#">Separated link</a></li>
@@ -62,20 +62,60 @@
   
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
+  
 </nav>
+<style>
+
+.fol2{
+ color:#006600;
+    font-size:20px;text-decoration:none;
+}	
+.trailer11{
+color:#006600;
+}
+
+.fol{
+   color:#CC0000;
+   }
+.e{
+   color:#FF6600;
+
+ 
 
 
 
-
-<center>
-<h1 style='color:blue'>Adventure</h1>		
-<ul id="menu">              
-    <li><a href="http://localhost/BombCrack/goat.html">Ghost of a Tale</a></li>
-    <li><a href="http://localhost/BombCrack/syb3.html">Syberia III</a></li>
-    <li><a href="http://localhost/BombCrack/tgr.html">The Girl and the Robot</a></li>
-    <li><a href="http://localhost/BombCrack/blw.html">Below</a></li>
-</ul>
+</style>
+ <div class="container-fluid" style='background: url("images/fol.jpg") no-repeat center center fixed;
+-webkit-background-size: 100% auto;
+-moz-background-size: 100% auto;
+-o-background-size: 100% auto;
+ background-size: 100% auto; '> 
+ <center>
+ <img height="128" width="128" src="images/fol2.jpg">
+<h1 class="e" >Follow the line</h1>
+</br>
+</br>
+<a class="fol2" href="https://play.google.com/store/apps/details?id=com.crimsonpine.stayinline&hl=en">From here you can download Follow the line</a>
+<h3 class="fol">
+In this free online skill game you have to guide a small ball through a labyrinth without touching the walls. While this does sound easy enough it of course is not. Besides the mean bends and curves there is a plethora randomly placed obstacles in your way. Whether you play Follow The Line on your mobile or tablet with your fingers or if you play it on your desktop using your mouse, y you will need all your skills to avoid the wall and move on to even more complicated parts of the track. Do you think, you have what it takes to skillfully avoid the walls and set a new record?
+</h3>
+</br>
+</br>
+<h1 class="trailer11">
+Trailer
+</h1>
+</br>
+</br>
+</br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/S4ljPbky1ZE" frameborder="0" allowfullscreen></iframe>
+</br>
+</br>
+</br>
 </center>
-<script src="js/bootstrap.min.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+
+</div>
+ 
 </body>
+
 </html>
