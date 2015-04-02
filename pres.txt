@@ -1,0 +1,26 @@
+Structure
+
+1.)short presentation of the team (members,etc.)
+2.)the start of the project Ideea (We live in a world of games,this why we think it is useful to give a hand to  all gamers worldwide.)
+3.)objective 2-3 (ce-am urmarit cu realizarea siteului 2-3)
+4.)prezentare siteului *
+
+
+
+NU SPUNE NIMIC DESPRE SITE PANA LA FINALUL ETAPELOR ADICA LA STEA
+
+
+1.Hello everyone! My name is Arian Atapour and I'm here to present my teamwork. Our team has three members (me,Adam,Felix).
+We are all students and enjoy playing computer games.
+2.We live in a world of games,this why we think it is useful to give a hand to  all gamers worldwide.This is the main idea from which
+our site begun.
+3.Our main objectives were:-Gamers to know more about their favorite games
+                           -Gamers to find news about games
+                           -Gamers to comment and share informations about games
+
+4.The site is easy to access,to read,to comment.
+It has an accesable interface and is well structured.
+We have an interactive part were users can comment and share informations.
+  We have a section which describe different categories of games.
+  We have a quiz section which will be improved in the future with many questions.
+ 
